@@ -70,6 +70,7 @@ const Hero = () => {
           >
             Projects
           </a>
+
         </div>
       </div>
     </div>
