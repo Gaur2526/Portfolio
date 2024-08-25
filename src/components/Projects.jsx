@@ -1,26 +1,10 @@
 import React from 'react';
 import musicplayer from '../assets/images/music player.png';
-import netflixclone from '../assets/images/netflix clone.png';
+import youtubeinfo from '../assets/images/YouTube-Info.png'
 import foodordering from '../assets/images/online food ordering.png';
 
 const Projects = () => {
   const works = [
-    {
-      title: 'Music Player',
-      description: 'Music app desktop UI made using HTML, CSS and JS',
-      code: 'https://github.com/Gaur2526/Music-player',
-      live: 'https://gaur2526.github.io/Music-player/',
-      stack: 'HTMl, CSS, JavaScript',
-      thumbnail: musicplayer,
-    },
-    {
-      title: 'Netflix Clone',
-      description: 'An website where you can watch movies, drama & shows using HTML, CSS and JS',
-      code: 'https://github.com/Gaur2526/netflix-clone',
-      live: 'https://gaur2526.github.io/netflix-clone/',
-      stack: 'HTMl, CSS, JavaScript',
-      thumbnail: netflixclone,
-    },
     {
       title: 'Online Food Ordering',
       description: 'E-Food Ordering landing page design using HTML, CSS and JS',
@@ -28,6 +12,22 @@ const Projects = () => {
       live: 'https://gaur2526.github.io/Online-Food-Ordering/',
       stack: 'HTMl, CSS, JavaScript',
       thumbnail: foodordering,
+    },
+    {
+      title: 'YouTube Channel Info',
+      description: 'A web app that provides detailed information about YouTube channels',
+      code: 'https://github.com/Gaur2526/Youtube-Channel-Info',
+      live: 'https://youtube-channel-info-ed6u.vercel.app/',
+      stack: 'JavaScript, Python',
+      thumbnail: youtubeinfo,
+    },
+    {
+      title: 'Music Player',
+      description: 'Music app desktop UI made using HTML, CSS and JS',
+      code: 'https://github.com/Gaur2526/Music-player',
+      live: 'https://gaur2526.github.io/Music-player/',
+      stack: 'HTMl, CSS, JavaScript',
+      thumbnail: musicplayer,
     },
   ];
   return (
