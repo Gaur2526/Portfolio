@@ -1,5 +1,5 @@
 import React from 'react';
-import musicplayer from '../assets/images/music player.png';
+import whatsappchatanalayzer from '../assets/images/Whatsapp-Chat-Analyzer.png';
 import youtubeinfo from '../assets/images/YouTube-Info.png'
 import foodordering from '../assets/images/online food ordering.png';
 
@@ -22,12 +22,12 @@ const Projects = () => {
       thumbnail: youtubeinfo,
     },
     {
-      title: 'Music Player',
-      description: 'Music app desktop UI made using HTML, CSS and JS',
-      code: 'https://github.com/Gaur2526/Music-player',
-      live: 'https://gaur2526.github.io/Music-player/',
-      stack: 'HTMl, CSS, JavaScript',
-      thumbnail: musicplayer,
+      title: 'Whatsapp-Chat-Analyzer',
+      description: 'Python project analyzes WhatsApp chat data from a .txt file,providing insights such as the total number of words, media, links,and messages',
+      code: 'https://github.com/Gaur2526/Whatsapp-Chat-Analyzer',
+      live: 'https://whatsapp-chat-analyzer-akash.streamlit.app/',
+      stack: 'Python, Streamlit, Panda, NumPy',
+      thumbnail: whatsappchatanalayzer,
     },
   ];
   return (
