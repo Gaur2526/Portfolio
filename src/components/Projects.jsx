@@ -1,6 +1,6 @@
 import React from 'react';
-import whatsappchatanalayzer from '../assets/images/Whatsapp-Chat-Analyzer.png';
-import youtubeinfo from '../assets/images/YouTube-Info.png'
+import ContentShare from '../assets/images/contentShare.png';
+import youtubeinfo from '../assets/images/YT-UPDATED.png'
 import foodordering from '../assets/images/online food ordering.png';
 
 const Projects = () => {
@@ -16,18 +16,18 @@ const Projects = () => {
     {
       title: 'YouTube Channel Info',
       description: 'A web app that provides detailed information about YouTube channels',
-      code: 'https://github.com/Gaur2526/Youtube-Channel-Info',
-      live: 'https://youtube-channel-info-ed6u.vercel.app/',
+      code: 'https://github.com/Gaur2526/YT-UPDATED',
+      live: 'https://yt-stats-six.vercel.app/',
       stack: 'JavaScript, Python',
       thumbnail: youtubeinfo,
     },
     {
-      title: 'Whatsapp-Chat-Analyzer',
-      description: 'Python project analyzes WhatsApp chat data from a .txt file,providing insights such as the total number of words, media, links,and messages',
-      code: 'https://github.com/Gaur2526/Whatsapp-Chat-Analyzer',
-      live: 'https://whatsapp-chat-analyzer-akash.streamlit.app/',
-      stack: 'Python, Streamlit, Panda, NumPy',
-      thumbnail: whatsappchatanalayzer,
+      title: 'ContentShare',
+      description: 'A full-stack web application that allows users to securely share, manage, and explore content in real-time. It features content posting, editing, and deletion, with a modern, responsive UI built using Next.js and TypeScript. The application integrates MongoDB for efficient data storage and WebSockets for real-time updates, ensuring a seamless user experience.',
+      code: 'https://github.com/Gaur2526/Content_Share',
+      live: 'https://content-share-lyart.vercel.app/',
+      Stack: 'Next.js, TypeScript, Tailwind CSS, MongoDB',
+      thumbnail: ContentShare,
     },
   ];
   return (
